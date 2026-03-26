@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şakamatik Sitem | Giriş Yap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Şakamatik</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="resimler.html">Resimler</a></li>
+                <li><a href="videolar.html">Videolar</a></li>
+                <li><a href="kayit.html">Kayıt Ol</a></li>
+                <li><a href="giris.html" class="active">Giriş</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="page-title">Tekrar Hoş Geldin!</h2>
+
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="email">E-posta Adresi</label>
+                    <input type="email" id="email" name="email" required placeholder="ornek@mail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="sifre">Şifre</label>
+                    <input type="password" id="sifre" name="sifre" required minlength="6" placeholder="******">
+                </div>
+
+                <button type="submit" class="btn-submit">Giriş Yap</button>
+                
+                <p style="text-align:center; font-size:13px; margin-top:20px; color:#7f8c8d;">
+                    Henüz hesabın yok mu? <a href="kayit.html" style="color:#ffc107; font-weight:600;">Kayıt Ol</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Mizah Dünyası - Şık Ödev Projesi</p>
+    </footer>
+
+</body>
+</html>
