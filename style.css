@@ -205,3 +205,13 @@ footer p {
     font-size: 13px;
     color: #999;
 }
+
+.video-container {
+    background: #000;
+    line-height: 0; /* Boşlukları temizler */
+    border-bottom: 2px solid #ffc107;
+}
+
+iframe {
+    border: none;
+}
